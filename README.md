@@ -59,7 +59,21 @@ An intelligent, multi-page **AI Resume Analyzer** built using **LangChain (LCEL)
 
 
 ## ⚙️ Architecture (RAG Pipeline)
-**PDF Resume** ↓ **Text Extraction** (`PyPDFLoader`) ↓ **Chunking** (`RecursiveCharacterTextSplitter`) ↓ **Embeddings** (`HuggingFace`) ↓ **Vector Store** (`FAISS`) ↓ **Retriever** ↓ **Prompt + LLM** (`Ollama - llama3.2`) ↓ **Final Response**
+**PDF Resume** 
+      ↓  
+**Text Extraction** (`PyPDFLoader`)  
+      ↓  
+**Chunking** (`RecursiveCharacterTextSplitter`)  
+      ↓  
+**Embeddings** (`HuggingFace`)  
+      ↓  
+**Vector Store** (`FAISS`)  
+      ↓  
+**Retriever** 
+      ↓  
+**Prompt + LLM** (`Ollama - llama3.2`)  
+      ↓  
+**Final Response**
 
 ## 🔗 LCEL Chain (Core Logic)
 ```python
